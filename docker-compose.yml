@@ -2,7 +2,7 @@ services:
   server:
     build: .
     ports:
-      - "${port}:3100"
+      - "${PORT}:3100"
     environment:
       DATABASE_URL: ${DATABASE_URL}
       PORT: "3100"
